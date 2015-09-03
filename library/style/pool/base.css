@@ -1,0 +1,162 @@
+/* Colors
+
+#4f7974
+#80ADA8
+#C0E4DA
+#BBBBBD
+#919296
+
+*/
+
+/* Social Media Brand Colors
+ 
+twitter:     #00aced     rgb(0, 172, 237)
+facebook:    #3b5998     rgb(59, 89, 152)
+googleplus:  #dd4b39     rgb(221, 75, 57)
+pinterest:   #cb2027     rgb(203, 32, 39)
+linkedin:    #007bb6     rgb(0, 123, 182)
+youtube:     #bb0000     rgb(187, 0, 0)
+vimeo:       #aad450     rgb(170, 212, 80)
+tumblr:      #32506d     rgb(50, 80, 109)
+instagram:   #517fa4     rgb(81, 127, 164)
+flickr:      #ff0084     rgb(255, 0, 132)
+dribbble:    #ea4c89     rgb(234, 76, 137)
+quora:       #a82400     rgb(168, 36, 0)
+foursquare:  #0072b1     rgb(0, 114, 177)
+forrst:      #5B9A68     rgb(91, 154, 104)
+vk:          #45668e     rgb(69, 102, 142)
+wordpress:   #21759b     rgb(33, 117, 155)
+stumbleupon: #EB4823     rgb(235, 72, 35)
+yahoo:       #7B0099     rgb(123, 0, 153)
+blogger:     #fb8f3d     rgb(251, 143, 61)
+soundcloud:  #ff3a00     rgb(255, 58, 0)
+ 
+*/
+
+/* =============================================================================
+   Global Styles
+   ========================================================================== */
+
+html{
+    font-size: 100%;
+}
+body{
+    margin: 0;
+    font-size: 0.875em;
+    color: #919296;
+}
+
+img{
+    max-width: 100%;
+    border: none;
+}
+
+.text-hidden{
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    text-indent: 1000%;
+    overflow: hidden;
+    width: 20px;
+}
+
+/* =============================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero{
+    background-image: url(/images/cari--temp.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+
+.pageTitle{}
+.pageSubTitle{}
+.pageIntro{}
+
+/* =============================================================================
+   Main Section
+   ========================================================================== */
+
+.article-main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* =============================================================================
+   Portfolio Section !!
+   ========================================================================== */
+
+.samples{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #C0E4DA;
+}
+
+/* =============================================================================
+   Contact Section
+   ========================================================================== */
+
+.contact{
+    padding-top: 80px;
+    padding-bottom: 8px;
+}
+.social{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    .social_item{
+        display: block;
+        float: left;
+        padding: 0;
+        margin: 0 5px 0 0;
+    }
+.social_item_target{
+    display: block;
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    line-height: 2em !important;
+    text-align: center;
+    color: #fff;
+    background: #BBBBBD;
+}
+.social_item_target.facebook{background: #3b5998;}
+.social_item_target.linkedin{background: #007bb6;}
+.social_item_target.youtube{background: #b00;}
+.social_item_target.soundcloud{background: #ff3a00;}
+
+/* Text Inputs */
+.infield-wrap{
+    position: relative;
+    padding-bottom: 0;
+    color: #8B9298;
+    display: inline-block;
+    width: 100%;
+}
+    .infield_label{
+        font: normal bold 0.75em/1 "adelle", serif;
+        color: #919296;
+        position: absolute;
+        padding: 7px 5px;
+        z-index: 0;
+    }
+    .infield_input{
+        font: normal normal 1em/1 "adelle", serif;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 25px 5px 5px 5px;
+        height: 3em;
+        vertical-align: top;
+        color: inherit;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        background-color: transparent !important;
+    }

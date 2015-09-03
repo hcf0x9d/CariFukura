@@ -1,0 +1,41 @@
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+.pageTitle{
+    font: normal 100 5.75em/1em "proxima-nova", sans-serif;
+    margin: 0;
+}
+.pageSubTitle{
+    font: normal 2em/1.25em "proxima-nova", sans-serif;
+    margin: 0;
+}
+
+.headline--helper{
+    font: normal 1.5em/1.25em sans-serif;
+    margin: 0;
+}
+
+.headline{
+    font: normal 100 3.5em/1em "proxima-nova", sans-serif;
+    margin: 0px;
+    letter-spacing: -0.05em;
+    color: #4f7974;
+}
+
+.body-intro{
+    font: normal 100 1.5em/1em "adelle", serif;
+    margin: 5px 0;
+    display: inline;
+    line-height: 1.3;
+    color: #80ADA8;
+}
+
+.secondary{
+    font: normal 0.75em/1.25em sans-serif;
+}
+
+p{
+    font-family: "adelle", serif;
+    line-height: 1.6;
+}
