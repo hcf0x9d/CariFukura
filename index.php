@@ -67,7 +67,7 @@
     </section>
     <section id="samples" class="samples">
         <div class="container_12" style="text-align:center;">
-            
+            <h2 class="body-intro grid_12">Voice over work for videos</h2>
             <?php samples(); ?>
         </div>
     </section>
@@ -85,14 +85,14 @@
                     <div itemprop="name" class="vcard_name">Carilyn Mae Fukura</div>
                     <div itemprop="jobtitle" class="vcard_title">Voice Over Artist</div>
                     <ul class="social">
-                        <li class="social_item"><a rel="me" itemprop="url" href="#" class="social_item_target facebook"><i class="fab fab-facebook"></i></a></li>
-                        <li class="social_item"><a rel="me" itemprop="url" href="#" class="social_item_target youtube"><i class="fab fab-youtube"></i></a></li>
-                        <li class="social_item"><a rel="me" itemprop="url" href="#" class="social_item_target soundcloud"><i class="fab fab-soundcloud"></i></a></li>
-                        <li class="social_item"><a rel="me" itemprop="url" href="#" class="social_item_target linkedin"><i class="fab fab-linkedin"></i></a></li>
+<!--                        <li class="social_item"><a rel="me" itemprop="url" href="#" class="social_item_target facebook"><i class="fab fab-facebook"></i></a></li>-->
+                        <li class="social_item"><a rel="me" itemprop="url" href="//vimeo.com/carilynmae" class="social_item_target vimeo" target="_blank" onclick="gaTag('Social Media Link', 'Click', 'Vimeo');"><i class="fab fab-vimeo"><span class="text-hidden">Cari Fukura on Vimeo</span></i></a></li>
+                        <li class="social_item"><a rel="me" itemprop="url" href="//soundcloud.com/carilyn-fukura" class="social_item_target soundcloud" target="_blank" onclick="gaTag('Social Media Link', 'Click', 'SoundCloud');"><i class="fab fab-soundcloud"><span class="text-hidden">Cari Fukura on SoundCloud</span></i></a></li>
+                        <li class="social_item"><a rel="me" itemprop="url" href="//www.linkedin.com/pub/carilyn-fukura/20/46a/a14" class="social_item_target linkedin" target="_blank" onclick="gaTag('Social Media Link', 'Click', 'LinkedIn');"><i class="fab fab-linkedin"><span class="text-hidden">Cari Fukura on LinkedIn</span></i></a></li>
                     </ul>
                     <ul class="links bt-ul">
-                        <li class="links_item"><i class="btr bt-home bt-li"></i><a itemprop="url" href="www.carifukura.com">www.carifukura.com</a></li>
-                        <li class="links_item"><i class="btr bt-envelope bt-li"></i><a itemprop="email" href="mailto:cari@carifukura.com">cari@carifukura.com</a></li>
+                        <li class="links_item"><i class="btr bt-home bt-li"></i><a itemprop="url" href="www.carilynmae.com">www.carilynmae.com</a></li>
+                        <li class="links_item"><i class="btr bt-envelope bt-li"></i><a itemprop="email" href="mailto:cari@carilynmae.com">cari@carilynmae.com</a></li>
                     </ul>
                 </div>
             </div>
