@@ -3,8 +3,37 @@
 
 
 @media only screen and (max-width: 767px) {
+    .pageTitle{
+        font-size: 3em;
+    }
+    .pageSubTitle{
+        font-size: 1.25em;
+        display: block;
+        font-weight:500;
+    }
+    .pageIntro{
+        padding: 0 !important;
+        font-size: 1.25em;
+    }
+    .hero{
+        padding: 2em 0;
+    }
+    .hero_card{
+        border-width: 2px;
+        background-color: rgba(128,173,168,0.2);
+    }
+    .rtb{
+        margin-bottom: 2em;
+    }
+    .headline{
+        padding-bottom: 0.5em;
+    }
 }
 
 
 @media only screen and (max-width: 479px) {
+    .body-intro{
+/*        font: normal 800 1em/1em "adelle", serif;*/
+        margin-top: 10px;
+    }
 }

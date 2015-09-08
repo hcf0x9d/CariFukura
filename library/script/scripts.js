@@ -3,19 +3,6 @@
 $(function () {
     'use strict';
     
-    var dur, on, off;
-
-    dur = 250;
-    on = 1;
-    off = 0.3;
-    
-    $('.social_item').mouseenter(function () {
-        $(this).stop(true, true).fadeTo(dur, on).siblings().fadeTo(dur, off);
-    });
-    
-    $('.social').mouseleave(function () {
-        $('.social_item').stop(true, true).fadeTo(dur, on);
-    });
 });
 
 /**
